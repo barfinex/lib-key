@@ -2,7 +2,7 @@
   "name": "@barfinex/key",
   "version": "0.0.0-development",
   "private": false,
-  "description": "Shared Key for Barfinex ecosystem",
+  "description": "Key management module for the Barfinex ecosystem. Provides initialization, secure storage, and retrieval of unique application identification keys using NestJS services.",
   "author": "Barfinex",
   "license": "MIT",
   "homepage": "https://github.com/barfinex/lib-key#readme",
@@ -23,6 +23,20 @@
     "clean": "rimraf dist",
     "release": "semantic-release"
   },
+  "keywords": [
+    "barfinex",
+    "key",
+    "keys",
+    "key-management",
+    "crypto",
+    "security",
+    "identification",
+    "nestjs",
+    "nestjs-module",
+    "typescript",
+    "persistence",
+    "fs"
+  ],
   "devDependencies": {
     "typescript": "^5.6.0",
     "rimraf": "^5.0.0",
