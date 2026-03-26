@@ -5,4 +5,4 @@ import { KeyService } from './key.service';
   providers: [KeyService],
   exports: [KeyService],
 })
-export class KeyModule { }
+export class KeyModule {}
